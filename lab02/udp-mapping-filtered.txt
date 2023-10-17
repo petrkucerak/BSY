@@ -1,0 +1,204 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-10-13 06:58 UTC
+Initiating ARP Ping Scan at 06:58
+Scanning 101 hosts [1 port/host]
+Completed ARP Ping Scan at 06:58, 0.91s elapsed (101 total hosts)
+
+Nmap scan report for 172.16.1.110
+Host is up (0.000078s latency).
+Not shown: 65504 closed ports
+PORT      STATE         SERVICE
+853/udp   open|filtered unknown
+3277/udp  open|filtered awg-proxy
+3371/udp  open|filtered satvid-datalnk
+5943/udp  open|filtered unknown
+7571/udp  open|filtered unknown
+8459/udp  open|filtered unknown
+8585/udp  open|filtered unknown
+8849/udp  open|filtered unknown
+10088/udp open|filtered unknown
+10541/udp open|filtered MOS-upper
+11438/udp open|filtered unknown
+12224/udp open|filtered unknown
+13231/udp open|filtered unknown
+13880/udp open|filtered unknown
+19384/udp open|filtered unknown
+19674/udp open|filtered unknown
+24432/udp open|filtered unknown
+30923/udp open|filtered unknown
+31263/udp open|filtered unknown
+31653/udp open|filtered unknown
+33369/udp open|filtered unknown
+35823/udp open|filtered unknown
+36870/udp open|filtered unknown
+38040/udp open|filtered unknown
+41173/udp open|filtered unknown
+41293/udp open|filtered unknown
+45490/udp open|filtered unknown
+45780/udp open|filtered unknown
+48449/udp open|filtered unknown
+49611/udp open|filtered unknown
+62325/udp open|filtered unknown
+MAC Address: 02:42:AC:10:01:6E (Unknown)
+
+Nmap scan report for 172.16.1.125
+Host is up (0.00010s latency).
+Not shown: 65507 closed ports
+PORT      STATE         SERVICE
+7027/udp  open|filtered unknown
+8181/udp  open|filtered unknown
+13067/udp open|filtered unknown
+15653/udp open|filtered unknown
+17593/udp open|filtered unknown
+18958/udp open|filtered unknown
+22763/udp open|filtered talikaserver
+26140/udp open|filtered unknown
+26285/udp open|filtered unknown
+27213/udp open|filtered unknown
+29727/udp open|filtered unknown
+31808/udp open|filtered unknown
+34264/udp open|filtered unknown
+36681/udp open|filtered unknown
+37987/udp open|filtered unknown
+38375/udp open|filtered unknown
+38452/udp open|filtered unknown
+44917/udp open|filtered unknown
+48150/udp open|filtered unknown
+48294/udp open|filtered unknown
+51283/udp open|filtered unknown
+55790/udp open|filtered unknown
+55878/udp open|filtered unknown
+56026/udp open|filtered unknown
+56903/udp open|filtered unknown
+57632/udp open|filtered unknown
+58379/udp open|filtered unknown
+64421/udp open|filtered unknown
+MAC Address: 02:42:AC:10:01:7D (Unknown)
+
+Nmap scan report for 172.16.1.140
+Host is up (0.00013s latency).
+Not shown: 65504 closed ports
+PORT      STATE         SERVICE
+318/udp   open|filtered pkix-timestamp
+853/udp   open|filtered unknown
+3729/udp  open|filtered fksp-audit
+6455/udp  open|filtered unknown
+11695/udp open|filtered unknown
+12377/udp open|filtered unknown
+12922/udp open|filtered unknown
+15814/udp open|filtered unknown
+24030/udp open|filtered unknown
+24079/udp open|filtered unknown
+24922/udp open|filtered find
+26127/udp open|filtered unknown
+32093/udp open|filtered unknown
+33560/udp open|filtered unknown
+33840/udp open|filtered unknown
+36504/udp open|filtered unknown
+40632/udp open|filtered unknown
+46529/udp open|filtered unknown
+48662/udp open|filtered unknown
+49581/udp open|filtered unknown
+49589/udp open|filtered unknown
+51014/udp open|filtered unknown
+54923/udp open|filtered unknown
+58753/udp open|filtered unknown
+59963/udp open|filtered unknown
+60037/udp open|filtered unknown
+62898/udp open|filtered unknown
+63361/udp open|filtered unknown
+64916/udp open|filtered unknown
+65051/udp open|filtered unknown
+65153/udp open|filtered unknown
+MAC Address: 02:42:AC:10:01:8C (Unknown)
+
+Nmap scan report for 172.16.1.154
+Host is up (0.000086s latency).
+Not shown: 65501 closed ports
+PORT      STATE         SERVICE
+69/udp    open|filtered tftp
+719/udp   open|filtered unknown
+2550/udp  open|filtered ads
+3433/udp  open|filtered alta-smp
+10920/udp open|filtered unknown
+14060/udp open|filtered unknown
+15562/udp open|filtered unknown
+17476/udp open|filtered unknown
+21566/udp open|filtered unknown
+22210/udp open|filtered unknown
+24922/udp open|filtered find
+26127/udp open|filtered unknown
+27105/udp open|filtered unknown
+28455/udp open|filtered unknown
+29177/udp open|filtered unknown
+30342/udp open|filtered unknown
+30365/udp open|filtered unknown
+31549/udp open|filtered unknown
+34111/udp open|filtered unknown
+34577/udp open|filtered unknown
+34869/udp open|filtered unknown
+36188/udp open|filtered unknown
+37169/udp open|filtered unknown
+37916/udp open|filtered unknown
+40752/udp open|filtered unknown
+42656/udp open|filtered unknown
+44446/udp open|filtered unknown
+46564/udp open|filtered unknown
+46918/udp open|filtered unknown
+49686/udp open|filtered unknown
+51870/udp open|filtered unknown
+54861/udp open|filtered unknown
+63947/udp open|filtered unknown
+65409/udp open|filtered unknown
+MAC Address: 02:42:AC:10:01:9A (Unknown)
+
+Nmap scan report for 172.16.1.166
+Host is up (0.00016s latency).
+Not shown: 65493 closed ports
+PORT      STATE         SERVICE
+161/udp   open|filtered snmp
+1519/udp  open|filtered vpvc
+2936/udp  open|filtered otpatch
+3300/udp  open|filtered unknown
+3918/udp  open|filtered pktcablemmcops
+7715/udp  open|filtered unknown
+8784/udp  open|filtered unknown
+9601/udp  open|filtered unknown
+11397/udp open|filtered unknown
+15653/udp open|filtered unknown
+17562/udp open|filtered unknown
+19287/udp open|filtered unknown
+21314/udp open|filtered unknown
+22985/udp open|filtered unknown
+24970/udp open|filtered unknown
+27322/udp open|filtered unknown
+27367/udp open|filtered unknown
+27848/udp open|filtered unknown
+28106/udp open|filtered unknown
+29939/udp open|filtered unknown
+30583/udp open|filtered unknown
+31886/udp open|filtered unknown
+33838/udp open|filtered unknown
+34106/udp open|filtered unknown
+34587/udp open|filtered unknown
+34753/udp open|filtered unknown
+35091/udp open|filtered unknown
+35134/udp open|filtered unknown
+38204/udp open|filtered unknown
+42184/udp open|filtered unknown
+42805/udp open|filtered unknown
+43730/udp open|filtered unknown
+44132/udp open|filtered unknown
+46356/udp open|filtered unknown
+46443/udp open|filtered unknown
+52341/udp open|filtered unknown
+52683/udp open|filtered unknown
+53690/udp open|filtered unknown
+55139/udp open|filtered unknown
+58027/udp open|filtered unknown
+65012/udp open|filtered unknown
+65077/udp open|filtered unknown
+MAC Address: 02:42:AC:10:01:A6 (Unknown)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 101 IP addresses (5 hosts up) scanned in 67408.05 seconds
+           Raw packets sent: 346062 (9.707MB) | Rcvd: 330881 (18.544MB)

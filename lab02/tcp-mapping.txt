@@ -1,0 +1,150 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-10-17 15:01 UTC
+Initiating ARP Ping Scan at 15:01
+Scanning 101 hosts [1 port/host]
+Completed ARP Ping Scan at 15:01, 0.88s elapsed (101 total hosts)
+Nmap scan report for 172.16.1.100 [host down]
+Nmap scan report for 172.16.1.101 [host down]
+Nmap scan report for 172.16.1.102 [host down]
+Nmap scan report for 172.16.1.103 [host down]
+Nmap scan report for 172.16.1.104 [host down]
+Nmap scan report for 172.16.1.105 [host down]
+Nmap scan report for 172.16.1.106 [host down]
+Nmap scan report for 172.16.1.107 [host down]
+Nmap scan report for 172.16.1.108 [host down]
+Nmap scan report for 172.16.1.109 [host down]
+Nmap scan report for 172.16.1.111 [host down]
+Nmap scan report for 172.16.1.112 [host down]
+Nmap scan report for 172.16.1.113 [host down]
+Nmap scan report for 172.16.1.114 [host down]
+Nmap scan report for 172.16.1.115 [host down]
+Nmap scan report for 172.16.1.116 [host down]
+Nmap scan report for 172.16.1.117 [host down]
+Nmap scan report for 172.16.1.118 [host down]
+Nmap scan report for 172.16.1.119 [host down]
+Nmap scan report for 172.16.1.120 [host down]
+Nmap scan report for 172.16.1.121 [host down]
+Nmap scan report for 172.16.1.122 [host down]
+Nmap scan report for 172.16.1.123 [host down]
+Nmap scan report for 172.16.1.124 [host down]
+Nmap scan report for 172.16.1.126 [host down]
+Nmap scan report for 172.16.1.127 [host down]
+Nmap scan report for 172.16.1.128 [host down]
+Nmap scan report for 172.16.1.129 [host down]
+Nmap scan report for 172.16.1.130 [host down]
+Nmap scan report for 172.16.1.131 [host down]
+Nmap scan report for 172.16.1.132 [host down]
+Nmap scan report for 172.16.1.133 [host down]
+Nmap scan report for 172.16.1.134 [host down]
+Nmap scan report for 172.16.1.135 [host down]
+Nmap scan report for 172.16.1.136 [host down]
+Nmap scan report for 172.16.1.137 [host down]
+Nmap scan report for 172.16.1.138 [host down]
+Nmap scan report for 172.16.1.139 [host down]
+Nmap scan report for 172.16.1.141 [host down]
+Nmap scan report for 172.16.1.142 [host down]
+Nmap scan report for 172.16.1.143 [host down]
+Nmap scan report for 172.16.1.144 [host down]
+Nmap scan report for 172.16.1.145 [host down]
+Nmap scan report for 172.16.1.146 [host down]
+Nmap scan report for 172.16.1.147 [host down]
+Nmap scan report for 172.16.1.148 [host down]
+Nmap scan report for 172.16.1.149 [host down]
+Nmap scan report for 172.16.1.150 [host down]
+Nmap scan report for 172.16.1.151 [host down]
+Nmap scan report for 172.16.1.152 [host down]
+Nmap scan report for 172.16.1.153 [host down]
+Initiating SYN Stealth Scan at 15:01
+Scanning 4 hosts [65535 ports/host]
+Discovered open port 80/tcp on 172.16.1.125
+Discovered open port 22/tcp on 172.16.1.110
+Discovered open port 443/tcp on 172.16.1.125
+Discovered open port 8088/tcp on 172.16.1.140
+Discovered open port 19333/tcp on 172.16.1.140
+Completed SYN Stealth Scan against 172.16.1.125 in 24.38s (3 hosts left)
+Completed SYN Stealth Scan against 172.16.1.140 in 24.38s (2 hosts left)
+Completed SYN Stealth Scan against 172.16.1.110 in 25.38s (1 host left)
+Completed SYN Stealth Scan at 15:01, 25.38s elapsed (262140 total ports)
+Nmap scan report for 172.16.1.110
+Host is up (0.000040s latency).
+Not shown: 65534 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 02:42:AC:10:01:6E (Unknown)
+
+Nmap scan report for 172.16.1.125
+Host is up (0.000047s latency).
+Not shown: 65533 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 02:42:AC:10:01:7D (Unknown)
+
+Nmap scan report for 172.16.1.140
+Host is up (0.000045s latency).
+Not shown: 65533 closed ports
+PORT      STATE SERVICE
+8088/tcp  open  radan-http
+19333/tcp open  litecoin
+MAC Address: 02:42:AC:10:01:8C (Unknown)
+
+Nmap scan report for 172.16.1.154
+Host is up (0.000039s latency).
+All 65535 scanned ports on 172.16.1.154 are closed
+MAC Address: 02:42:AC:10:01:9A (Unknown)
+
+Nmap scan report for 172.16.1.155 [host down]
+Nmap scan report for 172.16.1.156 [host down]
+Nmap scan report for 172.16.1.157 [host down]
+Nmap scan report for 172.16.1.158 [host down]
+Nmap scan report for 172.16.1.159 [host down]
+Nmap scan report for 172.16.1.160 [host down]
+Nmap scan report for 172.16.1.161 [host down]
+Nmap scan report for 172.16.1.162 [host down]
+Nmap scan report for 172.16.1.163 [host down]
+Nmap scan report for 172.16.1.164 [host down]
+Nmap scan report for 172.16.1.165 [host down]
+Nmap scan report for 172.16.1.167 [host down]
+Nmap scan report for 172.16.1.168 [host down]
+Nmap scan report for 172.16.1.169 [host down]
+Nmap scan report for 172.16.1.170 [host down]
+Nmap scan report for 172.16.1.171 [host down]
+Nmap scan report for 172.16.1.172 [host down]
+Nmap scan report for 172.16.1.173 [host down]
+Nmap scan report for 172.16.1.174 [host down]
+Nmap scan report for 172.16.1.175 [host down]
+Nmap scan report for 172.16.1.176 [host down]
+Nmap scan report for 172.16.1.177 [host down]
+Nmap scan report for 172.16.1.178 [host down]
+Nmap scan report for 172.16.1.179 [host down]
+Nmap scan report for 172.16.1.180 [host down]
+Nmap scan report for 172.16.1.181 [host down]
+Nmap scan report for 172.16.1.182 [host down]
+Nmap scan report for 172.16.1.183 [host down]
+Nmap scan report for 172.16.1.184 [host down]
+Nmap scan report for 172.16.1.185 [host down]
+Nmap scan report for 172.16.1.186 [host down]
+Nmap scan report for 172.16.1.187 [host down]
+Nmap scan report for 172.16.1.188 [host down]
+Nmap scan report for 172.16.1.189 [host down]
+Nmap scan report for 172.16.1.190 [host down]
+Nmap scan report for 172.16.1.191 [host down]
+Nmap scan report for 172.16.1.192 [host down]
+Nmap scan report for 172.16.1.193 [host down]
+Nmap scan report for 172.16.1.194 [host down]
+Nmap scan report for 172.16.1.195 [host down]
+Nmap scan report for 172.16.1.196 [host down]
+Nmap scan report for 172.16.1.197 [host down]
+Nmap scan report for 172.16.1.198 [host down]
+Nmap scan report for 172.16.1.199 [host down]
+Nmap scan report for 172.16.1.200 [host down]
+Initiating SYN Stealth Scan at 15:01
+Scanning 172.16.1.166 [65535 ports]
+Completed SYN Stealth Scan at 15:01, 6.50s elapsed (65535 total ports)
+Nmap scan report for 172.16.1.166
+Host is up (0.000049s latency).
+All 65535 scanned ports on 172.16.1.166 are closed
+MAC Address: 02:42:AC:10:01:A6 (Unknown)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 101 IP addresses (5 hosts up) scanned in 33.34 seconds
+           Raw packets sent: 327872 (14.423MB) | Rcvd: 327680 (13.107MB)

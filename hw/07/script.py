@@ -1,7 +1,18 @@
 from itertools import combinations
 
+import unicodedata
+
+
+def remove_accent(text):
+    """
+    Remove accent from text
+    :param text: text to remove accent from
+    :return: text without accent
+    """
+    return unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('utf-8', 'ignore')
+
+
 surnames = [
-    "Příjmení",
     "Šembera",
     "Boháč",
     "Fabinger",
@@ -73,5 +84,6 @@ surname_combinations = list(combinations(surnames, 2))
 
 # Print the generated combinations
 for combination in surname_combinations:
-    print(combination)
+    print(combination[0]+combination[1])
+    print(remove_accent( combination[0])+remove_accent(combination[1]))
 

@@ -1,3 +1,5 @@
 root@bsylabs:~$ ncat 172.16.1.159 9000
 cat final_problem.txt
-BSY{bJfA3Q2POLbCK
+BSY{bJfA3Q2POLbCK 3/4 Vb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}
+
+3/4 Vb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}

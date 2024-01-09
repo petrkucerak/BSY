@@ -84,6 +84,8 @@ surname_combinations = list(combinations(surnames, 2))
 
 # Print the generated combinations
 for combination in surname_combinations:
-    # print(combination[0]+combination[1])
-    print(remove_accent( combination[0]).lower() + remove_accent(combination[1]).lower())
-
+    string = remove_accent( combination[0]).lower() + remove_accent(combination[1]).lower()
+    for i in range(len(string)):
+        for size in range(len(string) - i):
+            capitalized_string = string[:i] + string[i:i+size].upper() + string[i+size+1:]
+            print(capitalized_string)

@@ -1,5 +1,17 @@
 root@bsylabs:~$ ncat 172.16.1.159 9000
 cat final_problem.txt
-BSY{bJfA3Q2POLbCK 3/4 Vb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}
+BSY{bJfA3Q2POLbCKn0YrVuqRY071Sc5HgVb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}
 
-3/4 Vb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}
+n0YrVuqRY071Sc5Hg
+BSY{bJfA3Q2POLbCK
+2/4:n0YrVuqRY071Sc5Hg
+3/4:Vb4fWh04ANPqe6NtZ
+Vb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}
+
+./professor_moriarty.txt.swp
+
+cat final_problem.txt
+
+BSY{bJfA3Q2POLbCKn0YrVuqRY071Sc5Hg
+
+Vb4fWh04ANPqe6NtZVUWPcxRRnnw6aUWXe}
